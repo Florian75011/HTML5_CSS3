@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Times New Roman', Times, serif
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+#link {
+    color: whitesmoke;
+}
+
+body
+{
+    /*background-color: black;*/
+    background-image:url(dark_background.jpg);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    border: 3px white double;
+    border-radius: 10px / 5px;
+    box-shadow: 5px 5px 10px white;
+}
+
+h2 {
+    color: #1F85DE;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+ul, p {
+    color: #fa0000;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+img
+{
+    float: right;
+    border: 1px solid black double;
+    box-shadow: 2px 2px 2px black;
+    margin-right: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Matthieu Nebra : remaniement de certains éléments des parties 3 & 4 */
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#liseret, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret {   
+    width: 10%;
+    margin-right: 3%;
+    height: 600px;
+    background-image: url('greyzz.png');
+    border-radius: 20px / 10px;
+}
+
+#contenu {
+    width: 75%;
+}
+
+/* Adapter son CV en responsiv pour les petits écrans */
+/* @media(min-width: 768px) and (max-width: 1388px) */
+
+@media all and (max-width: 1024px)
+
+{
+    section {
+        display: block;
+        width: auto;
+    }
+
+    #liseret{
+        display: none;
+    }
+
+    #contenu {
+        width: auto;
+        }
+
+    #first_block {
+        float: left;
+    }
+
+    #second_block {
+        float: left;
+    }
+
+    img {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    }
+}

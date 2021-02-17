@@ -1,0 +1,23 @@
+/* Adapter son CV en responsiv pour les petits écrans */
+/* @media(min-width: 768px) and (max-width: 1388px) */
+
+
+/* @media all and (max-width: 1024px)
+{
+    section
+    {
+        display: block;
+        width: auto;
+    }
+
+    #liseret
+    {
+        display: none;
+    }
+
+    #contenu
+    {
+        width: auto;
+    }
+
+} */
